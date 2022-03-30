@@ -2,8 +2,8 @@ var searchData=
 [
   ['rand_0',['rand',['../d8/d15/class_code_evaluation_1_1_auxiliary.html#a87f857d1402570e01d8de75510790275',1,'CodeEvaluation::Auxiliary']]],
   ['readme_2emd_1',['README.md',['../d9/dd6/_r_e_a_d_m_e_8md.html',1,'']]],
-  ['red_2',['red',['../d0/d43/class_code_evaluation_1_1_r_g_b_color.html#a39194428ac3833dfb0fd3f105c90b5f9',1,'CodeEvaluation::RGBColor']]],
-  ['red_3',['Red',['../d0/d43/class_code_evaluation_1_1_r_g_b_color.html#a15a93e702e916825924c1b080c56a140',1,'CodeEvaluation::RGBColor']]],
+  ['red_2',['Red',['../d0/d43/class_code_evaluation_1_1_r_g_b_color.html#a15a93e702e916825924c1b080c56a140',1,'CodeEvaluation::RGBColor']]],
+  ['red_3',['red',['../d0/d43/class_code_evaluation_1_1_r_g_b_color.html#a39194428ac3833dfb0fd3f105c90b5f9',1,'CodeEvaluation::RGBColor']]],
   ['reformatcode_4',['reformatCode',['../db/df6/class_code_evaluation_1_1_code.html#aa4bad656e84684dcc9adbde1618c72a8',1,'CodeEvaluation::Code']]],
   ['removetag_5fclick_5',['removeTag_Click',['../db/df6/class_code_evaluation_1_1_code.html#a9c39dcdac4392fa77eb5aad3c748abb8',1,'CodeEvaluation::Code']]],
   ['replaceparameterswithtableinputlist_6',['ReplaceParametersWithTableInputList',['../d8/d15/class_code_evaluation_1_1_auxiliary.html#a91125da50a5696b50fff95ce2c37a1da',1,'CodeEvaluation::Auxiliary']]],

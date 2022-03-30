@@ -25,20 +25,18 @@
 var NAVTREE =
 [
   [ "Code Evaluation", "index.html", [
-    [ "Geekppt", "index.html", [
-      [ "A powerful slide making tool – execute code in textbox", "index.html#autotoc_md6", null ],
-      [ "Installation", "index.html#autotoc_md7", null ],
-      [ "User Guide", "index.html#autotoc_md8", [
-        [ "Prerequisites", "index.html#autotoc_md9", null ],
-        [ "Create codebox, click to execute", "index.html#autotoc_md10", null ],
-        [ "add input to you code", "index.html#autotoc_md11", null ],
-        [ "graphical output", "index.html#autotoc_md12", null ],
-        [ "parameter table and plot template", "index.html#autotoc_md13", null ],
-        [ "conversion to ppt with codebox enabled", "index.html#autotoc_md14", null ]
-      ] ],
-      [ "Technical Documentation", "index.html#autotoc_md15", null ],
-      [ "License", "index.html#autotoc_md16", null ]
+    [ "A powerful slide making tool – execute code in textbox", "index.html#autotoc_md6", null ],
+    [ "Installation", "index.html#autotoc_md7", null ],
+    [ "User Guide", "index.html#autotoc_md8", [
+      [ "Prerequisites", "index.html#autotoc_md9", null ],
+      [ "Create codebox, click to execute", "index.html#autotoc_md10", null ],
+      [ "Add input to you code", "index.html#autotoc_md11", null ],
+      [ "Graphical output", "index.html#autotoc_md12", null ],
+      [ "Parameter table and plot template", "index.html#autotoc_md13", null ],
+      [ "Conversion to ppt with codebox enabled", "index.html#autotoc_md14", null ]
     ] ],
+    [ "Technical Documentation", "index.html#autotoc_md15", null ],
+    [ "License", "index.html#autotoc_md16", null ],
     [ "Create a VSTO project for PowerPoint Add-in", "dc/db9/md__code_evaluation__r_e_a_d_m_e.html", [
       [ "Step One", "dc/db9/md__code_evaluation__r_e_a_d_m_e.html#autotoc_md1", null ],
       [ "Step Two", "dc/db9/md__code_evaluation__r_e_a_d_m_e.html#autotoc_md2", null ],
@@ -76,7 +74,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"db/df6/class_code_evaluation_1_1_code.html#a217ff25bcb418c7886d296364fdcbc22"
+"db/df6/class_code_evaluation_1_1_code.html#a299604a331556bee3531155015f49547"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

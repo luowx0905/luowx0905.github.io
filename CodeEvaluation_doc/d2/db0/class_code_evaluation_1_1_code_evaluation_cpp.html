@@ -115,6 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab130f50ead2fcff07922358bf371961b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a C++ source file base on the all the text files (concatenation)  <a href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#ab130f50ead2fcff07922358bf371961b">More...</a><br /></td></tr>
 <tr class="separator:ab130f50ead2fcff07922358bf371961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37cb89ce3e412a3db8f1c88e56d7a99f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#a37cb89ce3e412a3db8f1c88e56d7a99f">RunCode</a> (out string result, string cmdArgs=&quot;&quot;, string inputs=&quot;&quot;)</td></tr>
+<tr class="memdesc:a37cb89ce3e412a3db8f1c88e56d7a99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run C++ code  <a href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#a37cb89ce3e412a3db8f1c88e56d7a99f">More...</a><br /></td></tr>
 <tr class="separator:a37cb89ce3e412a3db8f1c88e56d7a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99136ca42ee707cf6acff8dbdc00d90c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/interface_code_evaluation_1_1_i_code_evaluation.html#a99136ca42ee707cf6acff8dbdc00d90c">CreateSourceFile</a> ()</td></tr>
 <tr class="separator:a99136ca42ee707cf6acff8dbdc00d90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,8 +134,10 @@ Properties</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a2254ceb0cb110c276d3b3fb4ae2ad086"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#a2254ceb0cb110c276d3b3fb4ae2ad086">GenerateCmakeLists</a> (int cppStandard=20, string cmakeMinVersion=&quot;3.10&quot;)</td></tr>
+<tr class="memdesc:a2254ceb0cb110c276d3b3fb4ae2ad086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate cmake file  <a href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#a2254ceb0cb110c276d3b3fb4ae2ad086">More...</a><br /></td></tr>
 <tr class="separator:a2254ceb0cb110c276d3b3fb4ae2ad086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbb5102f07253b0eafabce9ff0e5b169"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#abbb5102f07253b0eafabce9ff0e5b169">CompileCode</a> (out string result)</td></tr>
+<tr class="memdesc:abbb5102f07253b0eafabce9ff0e5b169"><td class="mdescLeft">&#160;</td><td class="mdescRight">A quicker way to cimpile, use g++ directly instead of cmake  <a href="../../d2/db0/class_code_evaluation_1_1_code_evaluation_cpp.html#abbb5102f07253b0eafabce9ff0e5b169">More...</a><br /></td></tr>
 <tr class="separator:abbb5102f07253b0eafabce9ff0e5b169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -226,6 +229,17 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>A quicker way to cimpile, use g++ directly instead of cmake </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>compilation command</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>build dir</dd></dl>
+<p><br  />
+ </p>
+
 </div>
 </div>
 <a id="ab130f50ead2fcff07922358bf371961b" name="ab130f50ead2fcff07922358bf371961b"></a>
@@ -291,6 +305,16 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Generate cmake file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cppStandard</td><td>int, by default use 20</td></tr>
+    <tr><td class="paramname">cmakeMinVersion</td><td>string, by default 3.10</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>cmake file name</dd></dl>
+
 </div>
 </div>
 <a id="a37cb89ce3e412a3db8f1c88e56d7a99f" name="a37cb89ce3e412a3db8f1c88e56d7a99f"></a>
@@ -332,6 +356,17 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Run C++ code </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>code terminal output</td></tr>
+    <tr><td class="paramname">cmdArgs</td><td>command line arguments, seperated by space</td></tr>
+    <tr><td class="paramname">inputs</td><td>commandline stream input</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether code executation has problem (true or false)</dd></dl>
 
 <p>Implements <a class="el" href="../../d5/da3/interface_code_evaluation_1_1_i_code_evaluation.html#affde677b8e1b0bac48ac2ac1a8512d14">CodeEvaluation.ICodeEvaluation</a>.</p>
 
