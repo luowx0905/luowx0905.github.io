@@ -94,7 +94,7 @@ A powerful slide making tool – execute code in textbox</h1>
 <p >In this project, we aim to build a ppt addin called <code>Code Evaluation</code> that helps quickly insert code output, such as print and pictures in ppt, and enable command line and table input. This addin also supports shortcut conversion from multiple types to pptx while preserving all fhe features above.</p>
 <h1><a class="anchor" id="autotoc_md7"></a>
 Installation</h1>
-<p >TBI</p>
+<p >link TBI</p>
 <h1><a class="anchor" id="autotoc_md8"></a>
 User Guide</h1>
 <h2><a class="anchor" id="autotoc_md9"></a>
@@ -143,7 +143,11 @@ Parameter table and plot template</h2>
 <p >You can then select a parameter table and click the <code>Plot Template</code> button to generate a block of Python code. Using it, you can draw a simple scatter plot (based on the data in the table).</p>
 <h2><a class="anchor" id="autotoc_md14"></a>
 Conversion to ppt with codebox enabled</h2>
-<p >TBI by WZF</p>
+<p >User can firstly use pandoc to convert Markdown file to PowerPoint file. In order to make addin detect certain language type, the users need to add specific tags for different language codebox (@code_python for python, @code_java_main &amp; @code_java for Java, @code_cpp_main &amp; @code_cpp for C++). For example, python code should be marked like this in md files.</p>
+<div class="fragment"><div class="line">@code_python</div>
+<div class="line"># code content</div>
+<div class="line">@code_python</div>
+</div><!-- fragment --><p >Then users can use <code>Reformat</code> button to remove all existing tags(users can also run code without reformating). After clicking the reformat button, users can run code by clicking evaluation button.</p>
 <h1><a class="anchor" id="autotoc_md15"></a>
 Technical Documentation</h1>
 <p >For full documentation for the PowerPoint add-in, please go to <a href="https://luowx0905.github.io/CodeEvaluation_doc/index.html">Code Evaluation: Geekppt (luowx0905.github.io)</a></p>
